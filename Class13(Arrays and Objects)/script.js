@@ -1,5 +1,7 @@
+/*
 let arr = ["Priyanshi", 25, 10, 9, 25, true] 
 console.log(arr)
+
 
 // indexOf(element) : Returns the first index at which a given element 
 // can be found in the array, or -1 if it is not present.
@@ -34,3 +36,13 @@ console.log(splitArray) //  ['H', 'e', 'l', 'l', 'o']
 let str2 = "word1.word2.word3";
 let splitArr = str2.split(".");
 console.log(splitArr) // ['word1', 'word2', 'word3']
+
+*/
+let str = "Hello"
+let splitArray = str.split("");
+console.log(splitArray) //  ['H', 'e', 'l', 'l', 'o']
+
+
+console.log(splitArray.join('')); // Hello
+console.log(splitArray.join(' ')); // H e l l o
+console.log(splitArray.join()); // H,e,l,l,o
